@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerNavbar {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#containerNavbar .buttonNavbar {
+  color: white;
+  text-decoration: none;
+}
+#containerNavbar #logo {
+  margin-left: 1%;
+}
+#containerNavbar #navbar {
+  margin-right: 1%;
+}
+a{
+  border-left: grey solid 4px;
+}
+
+
+#imgBanniere {
+  background-image: url(../img/imgBanniere.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 315px;
+  background-size: cover;
+  background-position: center;
+}
+
+#title {
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#boxLunettes {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  justify-content: center;
+}
+#boxLunettes .lunette {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px black solid;
+  border-radius: 6px;
+  margin: 0 10px;
+  width: 22%;
+}
+#boxLunettes h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+#boxLunettes img {
+  padding-top: 25px;
+}
+#boxLunettes .buttonProduit {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  height: 27px;
+  padding-top: 7px;
+}
+
+#imgHomme {
+  background-image: url(../img/arton4Homme.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 695px;
+  background-size: 52%;
+  margin-top: 65px;
+}
+
+#colHomme {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+#imgFemme {
+  background-image: url(../img/arton4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 640px;
+  background-size: 52%;
+  padding-bottom: 6px;
+}
+
+#colFemme {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  padding-bottom: 70px;
+}
+
+footer {
+  background-color: rgb(111, 109, 109);
+  color: black;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .copyR {
+  margin: 0 1%;
+  font-size: x-small;
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=graysB.css.map */
